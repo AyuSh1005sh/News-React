@@ -1,0 +1,78 @@
+.searchbox {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 15px;
+    border: 1px solid #0b0b0b;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    background-color: #AFC8AD;
+   
+    border-color: #AFC8AD;
+}
+
+.searchbox input,
+.searchbox button {
+    height: 2rem;
+}
+
+.searchbox button {
+    padding: 0 1rem;
+}
+
+.rel {
+    margin-left: 40rem;
+}
+.searchbox input {
+    border: none;
+    border-radius: 15px;
+    background-color: #F2F1EB; /* Set background color to #F2F1EB */
+    height: 2rem;
+    padding: 0 1rem; /* Adjust padding as needed */
+}
+
+
+.rel select {
+    background-color: #AFC8AD; /* Background color for Sort By dropdown */
+    border-radius: 0;
+    border-color: #AFC8AD;
+}
+
+.rel select#filterBy {
+    background-color: #AFC8AD; /* Background color for Filter By dropdown */
+    border-radius: 0;
+    border-color: #AFC8AD;
+    width: 42px;
+    
+}
+/* Add these styles to your existing CSS file or create a new one */
+/* Update the text color for the pagination component */
+.pagination-container .pagination .page-link {
+    color: #739072;
+}
+
+.pagination-container .pagination .page-link:hover {
+    color: #EEE7DA;
+}
+
+.pagination-container .pagination .page-item.active .page-link {
+    background-color: #EEE7DA;
+    border-color: #EEE7DA;
+}
+
+.pagination-container .pagination .page-item.disabled .page-link {
+    color: #b3b3b3;
+}
+
+
+#sortBy {
+    border-color: #AFC8AD !important; /* Set the desired border color */
+    /* Add any other styles you want for the dropdown */
+  }
+  
+  /* Style for the focused (selected) SortBy dropdown */
+  #sortBy:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: none !important; /* Remove the default focus box shadow */
+    /* You can add more styles here if needed */
+  }
+  

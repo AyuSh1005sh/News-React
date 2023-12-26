@@ -1,0 +1,64 @@
+.container {
+    background-color: #F2F1EB;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 10px;
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden; /* Hide the overflow to prevent horizontal scrolling */
+}
+body {
+    background-color: black!important; /* Set the background color for the entire page */
+    margin: 0; /* Remove default margin to cover the entire viewport */
+    padding: 0; /* Remove default padding */
+}
+
+.rower {
+    padding-left: 2rem;
+    margin-left: -2rem; /* Offset the padding to cover the left outer space */
+    margin-right: -2rem; /* Offset the padding to cover the right outer space */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    width: 18rem; /* Set a fixed width for all cards */
+    margin-bottom: 1rem; /* Add space between cards */
+    background-color: #F2F1EB;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card img {
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+    background-color: #EEE7DA;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #739072 !important;
+    border-color: #739072 !important;
+}
+
+.btn-primary:hover {
+    background-color: #4F6F52 !important;
+    border-color: #4F6F52 !important;
+}
